@@ -1,0 +1,38 @@
+/* This aligns the text to the center of the page */
+body {
+    text-align: center;
+  }
+
+/* This does the coloring of text */ 
+  nav {
+    background-color: steelblue;
+    padding: 10px;
+  }
+
+/* This applies the styles to stuff */  
+  a {
+    color: white;
+    margin: 40px;
+  }
+
+/* This applies the styles to the main heading ("h1" get it?) */ 
+  h1 {
+    color: steelblue;
+  }
+
+/* Applies the styles to the images */
+  img {
+    width: 800px;
+    border: 4px solid steelblue;
+  }
+
+/* This applies the styles to padding, whatever that means :/ */
+  p {
+    padding: 10px;
+  }
+
+/* This applies the styles to duh the footer */
+  footer {
+    background-color: steelblue;
+    color: white;
+  }
