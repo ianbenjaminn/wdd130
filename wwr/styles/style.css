@@ -216,7 +216,8 @@ footer .social img {
 }
 
 .card-img, .mountains {
-    width: 100%;
+   object-fit: cover;
+   align-self: center;
 }
 
 .mountains {    
