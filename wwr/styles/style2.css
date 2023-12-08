@@ -233,6 +233,27 @@ footer .social img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+  }
+
+  .faq-question {
+    font-weight: bold;
+  }
+
+  .faq-answer {
+    margin-top: 10px;
+  }
+
 main section img {
     box-sizing: border-box;
 }
