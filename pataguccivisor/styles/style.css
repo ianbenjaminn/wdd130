@@ -114,5 +114,22 @@ a {
 }
 
 a:visited {
-  color: grey; /
+  color: grey; 
+}
+
+#comment-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+#comments-container {
+  max-height: calc(100% - 60px); /* Adjust max-height as needed */
+  overflow-y: auto;
+}
+
+#comment-input {
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
 }

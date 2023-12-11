@@ -12,8 +12,10 @@
 
     <header>
         <div>
-            <img id="logo" src="visor.png" alt="Logo">
-            <span>Patagucci Visor Forums</span>
+            <a href="index.html">
+                <img id="logo" src="visor.png" alt="Logo">
+                <span>Patagucci Visor Forums</span>
+                </a>
         </div>
         <div>
             <a href="page2.html">Login</a>
@@ -30,8 +32,16 @@
                     <div class="paragraph">As mentioned above, the visor is designed to leave your crown wide open and allows for some major air circulation on your noggin.' You'll stay cool and look cooler while doing it. If you find that your baseball caps, trucker hats and all other sun-shade based accessories are just keeping you hot headed, you might find rocking a visor a better experience. Did we mention you'll look better too?
                     </div>
                 </div>
-    
-        </div>
+
+                <div id="comment-section">
+                    <h2>Comments</h2>
+                    <div id="comments-container"></div>
+                    <textarea id="comment-input" placeholder="Add your comment..."></textarea>
+                    <button onclick="addComment()">Add Comment</button>
+                </div>
+            </div>
+
+
         <footer>
             <div class="footer-content">
                 <p>Patagucci Visor Forums &copy; 2023 - Ian Miller</p>
@@ -39,6 +49,8 @@
                 <p><a href="#">Contact Us</a></p>
             </div>
         </footer>
+
+        
     </body>
     
     </html>
