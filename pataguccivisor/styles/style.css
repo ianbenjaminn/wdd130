@@ -15,7 +15,7 @@
     --nav-hover-link-color: white;
     --nav-hover-background-color: #396E94;
   }
-  
+
   body {
     font-family: var(--paragraph-font);
     margin: 0;
@@ -32,6 +32,13 @@
     align-items: center;
   }
   
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
   #logo {
     width: 50px;
     height: auto;
@@ -47,8 +54,10 @@
   }
   
   #large-photo img {
-    max-width: 100%;
-    height: auto;
+    max-width: 400px; /* Set the maximum width of the image */
+    max-height: 250px; /* Set the maximum height of the image */
+    width: auto; /* Ensure the width adjusts automatically */
+    height: auto; /* Ensure the height adjusts automatically */
   }
   
   .subtitle {
@@ -75,8 +84,10 @@
   }
   
   .photo-box img {
-    max-width: 100%;
-    height: auto;
+    max-width: 200px;
+    max-height: 150px; 
+    width: auto; 
+    height: auto; 
   }
   
   .container {
@@ -85,7 +96,6 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-
 
 .footer-content {
     background-color: #086788;
@@ -96,4 +106,14 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+a {
+  color: #FFFFFF; /* Set the desired color (in this example, a shade of blue) */
+  text-decoration: none; /* Remove the underline, if you don't want it */
+}
+
+/* Style for visited link text */
+a:visited {
+  color: grey; /* Set the color for visited links (in this example, a shade of purple) */
 }
